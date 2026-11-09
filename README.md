@@ -14,6 +14,33 @@ More importantly, although the current design demonstrates scooping and sifting,
 
 Rather than fabricate an incomplete version or oversimplify the essential mechanisms merely to create a physical model, I preserved the complete CAD design and animation as a record of the current mechanical concept. A compact, manufacturable litter-return mechanism remains the primary challenge for future development.
 
+## Design Flow
+
+```mermaid
+flowchart TD
+    A[Define automatic scooping and waste-removal concept] --> B[Plan overall dimensions and mechanism layout]
+    B --> C[Model individual components]
+    C --> D[Build 25-instance CAD assembly with 54 mate features]
+    D --> E[Design scooping mechanism]
+    D --> F[Design litter-sifting structure]
+    D --> G[Design waste-collection and dumping structures]
+    E --> H[Create CAD motion animation]
+    F --> H
+    G --> H
+    H --> I[Evaluate complete operating cycle and manufacturability]
+
+    I --> J{Can the design be fabricated and complete a full cycle?}
+    J -->|Fine screen exceeds reliable 3D-printing resolution| K[Risk of blocked openings, deformation, and weak parts]
+    J -->|Full-scale assembly is too large| L[High material use and printing time]
+    J -->|Clean-litter return remains unresolved| M[No reliable way to return sifted litter evenly]
+
+    K --> N[Keep the project at the CAD stage]
+    L --> N
+    M --> N
+    N --> O[Preserve the complete model and motion animation]
+    O --> P[Future work: compact and manufacturable litter-return mechanism]
+```
+
 ## Project Status
 
 - Complete independent CAD model and assembly
