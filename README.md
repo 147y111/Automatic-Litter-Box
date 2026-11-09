@@ -36,6 +36,6 @@ flowchart TD
 
 ### CAD Motion Animation
 
-<video src="media/cad_motion_animation.mp4" controls width="620"></video>
+<video src="https://github.com/user-attachments/assets/2006d0f0-822d-4b57-b289-df339f050e95" controls width="620"></video>
 
 - [Download the complete 25-instance STEP assembly with 54 mate features](cad/automatic_litter_box_assembly.step)
