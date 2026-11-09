@@ -6,6 +6,8 @@ The design combines an automated scooping mechanism with litter sifting, waste c
 
 [Watch the CAD motion animation](media/cad_motion_animation.mp4)
 
+The complete 25-instance CAD assembly, including 54 mate features, is available as a STEP file: [`cad/automatic_litter_box_assembly.step`](cad/automatic_litter_box_assembly.step).
+
 The project ultimately remained at the CAD stage rather than becoming a complete physical prototype. The sifting screen contains fine features that could not be reproduced reliably with the available 3D printer. Printing the screen could result in blocked openings, deformation, or insufficient structural strength. Fabricating the design at its intended dimensions would also produce a large assembly requiring substantial printing time and material.
 
 More importantly, although the current design demonstrates scooping and sifting, it does not yet provide a reliable method for returning the cleaned litter evenly to the litter box after separation. Without this return mechanism, the system cannot complete a full operating cycle.
@@ -15,6 +17,7 @@ Rather than fabricate an incomplete version or oversimplify the essential mechan
 ## Project Status
 
 - Complete independent CAD model and assembly
+- Downloadable 25-instance STEP assembly with 54 mate features
 - Complete mechanical-motion animation
 - Scooping, sifting, waste-collection, and dumping mechanisms designed
 - Physical fabrication not completed because of printing-resolution, scale, and material constraints
